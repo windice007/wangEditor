@@ -12,6 +12,7 @@
     "prepublishOnly": "npm run build",
     "build": "gulp build",
     "win-example": "node ./example/server/index.js",
+    "start": "node ./example/server/index.js",
     "upload": "npm publish --registry=http://192.168.1.56:8081/repository/npm-hosted/",
     "example": "/bin/rm -rf ./example/upload-files && mkdir ./example/upload-files && npm run win-example"
   },
